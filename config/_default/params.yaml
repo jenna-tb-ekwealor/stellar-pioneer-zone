@@ -37,9 +37,9 @@ hugoblox:
     colors:
       primary: "#5E5E5E" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: "#5E5E5E"
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      neutral: "stone" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: { primary: lime, secondary: cyan, neutral: purple }
+    colors_light: { primary: "", secondary: "", neutral: "" }
     colors_dark: { primary: "#F2F0EF", secondary: "#F2F0EF" }
     # Optional: Semantic surface color overrides
     surfaces:
@@ -76,16 +76,16 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: minimal # navbar | navbar-simple | minimal
+    style: navbar # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: left # left | center | right
+    align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: false
+    theme_toggle: true
     theme_picker: false
-    language_switcher: false
+    language_switcher: true
     # Call-to-action button
     cta:
       enable: false
@@ -113,7 +113,7 @@ hugoblox:
     license:
       type: cc # cc | all_rights | custom
       allow_derivatives: false
-      share_alike: false
+      share_alike: true
       allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
