@@ -14,12 +14,12 @@ main:
     weight: 20
   - name: Biological Safety Consulting
     identifier: biological-safety-consulting
-    url: "#biological-safety"
+    url: /#biological-safety
     weight: 21
     parent: xAymLffw
   - name: Regulatory, Quality and Clinical Consulting
     identifier: regulatory-quality-and-clinical-consulting
-    url: "#regulatory"
+    url: /#regulatory
     weight: 22
     parent: xAymLffw
   - name: Our Team
