@@ -1,15 +1,32 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
   - name: Home
+    identifier: 2gI15TdU
     url: /
     weight: 10
-  - name: Blog
-    url: blog/
+  - name: Services
+    identifier: xAymLffw
+    url: /services/
     weight: 20
-  - name: Uses
-    url: uses/
+  - name: Biological Safety Consulting
+    identifier: biological-safety-consulting
+    url: "#biological-safety"
+    weight: 21
+    parent: xAymLffw
+  - name: Regulatory, Quality and Clinical Consulting
+    identifier: regulatory-quality-and-clinical-consulting
+    url: "#regulatory"
+    weight: 22
+    parent: xAymLffw
+  - name: Our Team
+    identifier: our-team
+    url: /team
     weight: 30
+  - name: Contact Us
+    identifier: contact-us
+    url: /contact
+    weight: 40
