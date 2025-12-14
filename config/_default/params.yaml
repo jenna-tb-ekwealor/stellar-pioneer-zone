@@ -18,11 +18,11 @@ hugoblox:
     # Schema.org type for structured data
     type: organization # person | organization | local_business
     # Site meta description for search engines and social sharing
-    description: "Vesco Med Tech Consulting website."
+    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
     name: vmtc
-    tagline: Trusted Medical Device Consulting
+    tagline: Medical Device Consulting
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -35,12 +35,12 @@ hugoblox:
     pack: "minimal"
     # Optional: Override theme pack colors
     colors:
-      primary: "red" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "sky"
-      neutral: "gray" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#5E5E5E" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#5E5E5E"
+      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: { primary: "", secondary: "" }
-    colors_dark: { primary: "" }
+    colors_dark: { primary: "#ccc9c8", secondary: "#F2F0EF" }
     # Optional: Semantic surface color overrides
     surfaces:
       header: {}
@@ -79,9 +79,9 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: left # left | center | right
+    align: center # left | center | right
     # Feature toggles
-    search: false
+    search: true
     theme_toggle: true
     theme_picker: false
     language_switcher: true
@@ -108,7 +108,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "{name} © {year}"
+    notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc # cc | all_rights | custom
       allow_derivatives: false
