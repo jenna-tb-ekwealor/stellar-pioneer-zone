@@ -43,7 +43,8 @@ hugoblox:
     colors_dark: { primary: "#ccc9c8", secondary: "#F2F0EF" }
     # Optional: Semantic surface color overrides
     surfaces:
-      header: {}
+      header:
+        background: "#F2F0EF"
       footer: {}
 
   # ────────────────────────────────────────────────────────────────────────────
