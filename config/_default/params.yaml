@@ -39,7 +39,7 @@ hugoblox:
       secondary: "#5E5E5E"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: { primary: "", secondary: "" }
+    colors_light: { primary: lime, secondary: cyan, neutral: purple }
     colors_dark: { primary: "#ccc9c8", secondary: "#F2F0EF" }
     # Optional: Semantic surface color overrides
     surfaces:
