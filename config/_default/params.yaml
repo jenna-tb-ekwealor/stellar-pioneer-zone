@@ -18,11 +18,11 @@ hugoblox:
     # Schema.org type for structured data
     type: organization # person | organization | local_business
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Vesco Med Tech Consulting website."
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
     name: vmtc
-    tagline: Medical Device Consulting
+    tagline: Trusted Medical Device Consulting
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -79,9 +79,9 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: left # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: false
     language_switcher: true
@@ -108,7 +108,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "{name} © {year}"
     license:
       type: cc # cc | all_rights | custom
       allow_derivatives: false
