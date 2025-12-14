@@ -8,25 +8,25 @@ main:
     identifier: 2gI15TdU
     url: /
     weight: 10
-  - name: Our Team
-    identifier: our-team
-    url: /team
-    weight: 20
-  - name: Contact Us
-    identifier: contact-us
-    url: /contact
-    weight: 30
   - name: Services
     identifier: xAymLffw
     url: /services
-    weight: 40
+    weight: 20
   - name: Biological Safety Consulting
     identifier: biological-safety-consulting
     url: "#biological-safety"
-    weight: 41
+    weight: 21
     parent: xAymLffw
   - name: Regulatory, Quality and Clinical Consulting
     identifier: regulatory-quality-and-clinical-consulting
     url: "#regulatory"
-    weight: 42
+    weight: 22
     parent: xAymLffw
+  - name: Our Team
+    identifier: our-team
+    url: /team
+    weight: 30
+  - name: Contact Us
+    identifier: contact-us
+    url: /contact
+    weight: 40
